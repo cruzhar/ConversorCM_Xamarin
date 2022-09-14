@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Conversor.Vistas.Convertir"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+            >
         <Grid BackgroundColor="#FDE07F">
         <StackLayout VerticalOptions="Center"
                      Margin="20">
-            <Image Source="https://i.ibb.co/kh1pr7g/globo-terraqueo.png"
+            <Image Source="Tierra.png"
                    Margin="20" />
             <Frame HasShadow="False"
                    CornerRadius="15">

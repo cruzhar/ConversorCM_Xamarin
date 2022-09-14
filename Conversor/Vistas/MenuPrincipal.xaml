@@ -16,7 +16,7 @@
                HasShadow="False">
             <StackLayout VerticalOptions="Center"
                          Spacing="20">
-                <Image Source="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2022/07/samaritan-2772991.jpg?itok=Pi5ZkfUW" />
+                <Image Source="Metro.png" />
                 <Label Text="(cm) a (m)"
                        FontAttributes="Bold"
                        FontSize="40"
@@ -29,6 +29,7 @@
                         FontAttributes="Bold" 
                         x:Name="btniniciar"
                         Clicked="btniniciar_Clicked"/>
+                <Label Text="Desarrollado Por ID-AS Desing" HorizontalOptions="Center"/>
             </StackLayout>
         </Frame>
     </StackLayout>
