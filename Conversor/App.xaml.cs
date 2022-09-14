@@ -1,6 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Conversor.Vista;
+using Conversor.Vistas;
 
 namespace Conversor
 {
@@ -10,7 +12,7 @@ namespace Conversor
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage( new MenuPrincipal());
         }
 
         protected override void OnStart()

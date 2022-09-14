@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Conversor.Vista.MenuPrincipal"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Orientation="Vertical"
+                 BackgroundColor="#FEE6B9">
+        <Label Text="Conversor"
+               FontSize="40"
+               FontAttributes="Bold"
+               Margin="0,20,0,0"
+               HorizontalOptions="Center" />
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="20,20,20,20"
+               CornerRadius="20"
+               HasShadow="False">
+            <StackLayout VerticalOptions="Center"
+                         Spacing="20">
+                <Image Source="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2022/07/samaritan-2772991.jpg?itok=Pi5ZkfUW" />
+                <Label Text="(cm) a (m)"
+                       FontAttributes="Bold"
+                       FontSize="40"
+                       HorizontalOptions="Center" />
+                <Button Text="Iniciar"
+                        TextTransform="None"
+                        BackgroundColor="#FDE080"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        FontAttributes="Bold" 
+                        x:Name="btniniciar"
+                        Clicked="btniniciar_Clicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
